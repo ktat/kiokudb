@@ -38,7 +38,7 @@ sub vivify {
 
     my $value = $self->value;
 
-    $self->attr->set_value( $instance, $value );
+    $self->attr->set_raw_value( $instance, $value );
 
     return $value;
 }
