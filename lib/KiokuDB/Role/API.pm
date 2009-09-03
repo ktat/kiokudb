@@ -17,6 +17,8 @@ requires qw(
     update
     deep_update
 
+    refresh
+
     delete
 
     is_root
